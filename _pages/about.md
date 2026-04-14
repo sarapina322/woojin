@@ -2,11 +2,11 @@
 layout: about
 title: About
 permalink: /
-subtitle: >
-  M.S. in Mechanical Engineering<br>
-  Korea University, Seoul, South Korea<br><br>
+subtitle: |
+  M.S. in Mechanical Engineering
+  Korea University, Seoul, South Korea
 
-  B.A. in Physical Education & B.S. in Biosystems and Biomedical Science<br>
+  B.A. in Physical Education & B.S. in Biosystems and Biomedical Science
   Korea University, Seoul, South Korea
 
 profile:

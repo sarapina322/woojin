@@ -80,8 +80,8 @@ ul.task-list input[type="checkbox"] {
 
 .about-profile {
   flex: 0 0 auto;
-  width: 42px;
-  max-width: 42px;
+  width: clamp(120px, 16vw, 170px);
+  max-width: 170px;
   margin: 0 0 0 1rem;
 
   figure {
@@ -107,14 +107,16 @@ ul.task-list input[type="checkbox"] {
   }
 
   .about-profile {
-    width: 42px;
-    max-width: 42px;
+    width: clamp(120px, 16vw, 170px);
+    max-width: 170px;
   }
 }
 
 @media (max-width: 575.98px) {
   .about-profile {
     float: none !important;
+    width: clamp(96px, 34vw, 130px);
+    max-width: 130px;
     margin: 0 0 0.75rem 0;
   }
 }
@@ -143,6 +145,16 @@ ul.task-list input[type="checkbox"] {
 @media (max-width: 575.98px) {
   .about-header {
     display: block;
+  }
+}
+
+.news {
+  .news-date {
+    width: 130px;
+    min-width: 130px;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+    vertical-align: top;
   }
 }
 

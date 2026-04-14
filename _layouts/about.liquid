@@ -12,7 +12,7 @@ layout: default
           {{ site.title }}
         {% endif %}
       </h1>
-      <p class="desc">{{ page.subtitle }}</p>
+      <p class="desc">{{ page.subtitle | newline_to_br }}</p>
     </div>
     {% if page.profile %}
       <div class="profile about-profile">
@@ -23,10 +23,9 @@ layout: default
           {% else %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) 42px, 42px{% endcapture %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.16 }}px, (min-width: 576px) 18vw, 42vw{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            width=42
             cache_bust=true
           %}
         {% endif %}
