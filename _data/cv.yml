@@ -6,200 +6,200 @@ cv:
   summary: Interdisciplinary researcher bridging physical education, biomedical science, and mechanical engineering. My work focuses on multimodal deep learning, self-supervised learning, AI for healthcare, physiological signal processing, and wearable sensing for personalized health intervention.
   sections:
     Education:
-    - institution: Korea University
-      location: Seoul, South Korea
-      area: Mechanical Engineering
-      studyType: Master of Science
-      start_date: '2025-03-01'
-      end_date: '2027-02-01'
-      score: 'GPA: 4.42/4.5'
-      highlights:
-      - 'Advisor: Prof. Daekyum Kim.'
-      - 'Research focus: multimodal deep learning, self-supervised learning, AI for healthcare, and physiological signal processing.'
-    - institution: Korea University
-      location: Seoul, South Korea
-      area: Physical Education; Biosystems and Biomedical Science
-      studyType: Dual Bachelor’s Degrees
-      start_date: '2020-03-01'
-      end_date: '2025-02-01'
-      score: 'GPA: 3.94/4.5'
-      highlights:
-      - Combined training in human movement, health science, and biomedical foundations.
-      - Lee Chai Yeon Scholarship recipient and multiple-semester High Honors.
-    - institution: Arizona State University
-      location: Tempe, Arizona, USA
-      area: Exchange Program
-      studyType: Exchange Student
-      start_date: '2024-01-01'
-      end_date: '2024-05-01'
-      highlights:
-      - Completed a semester abroad while broadening academic and cross-cultural experience.
+      - institution: Korea University
+        location: Seoul, South Korea
+        area: Mechanical Engineering
+        studyType: Master of Science
+        start_date: "2025-03-01"
+        end_date: "2027-02-01"
+        score: "GPA: 4.42/4.5"
+        highlights:
+          - "Advisor: Prof. Daekyum Kim."
+          - "Research focus: multimodal deep learning, self-supervised learning, AI for healthcare, and physiological signal processing."
+      - institution: Korea University
+        location: Seoul, South Korea
+        area: Physical Education; Biosystems and Biomedical Science
+        studyType: Dual Bachelor’s Degrees
+        start_date: "2020-03-01"
+        end_date: "2025-02-01"
+        score: "GPA: 3.94/4.5"
+        highlights:
+          - Combined training in human movement, health science, and biomedical foundations.
+          - Lee Chai Yeon Scholarship recipient and multiple-semester High Honors.
+      - institution: Arizona State University
+        location: Tempe, Arizona, USA
+        area: Exchange Program
+        studyType: Exchange Student
+        start_date: "2024-01-01"
+        end_date: "2024-05-01"
+        highlights:
+          - Completed a semester abroad while broadening academic and cross-cultural experience.
     Research Experience:
-    - company: Mintlab, Korea University
-      position: Graduate Researcher
-      location: Seoul, South Korea
-      start_date: '2025-03-01'
-      end_date: Present
-      summary: 'Advisor: Prof. Daekyum Kim'
-      highlights:
-      - Developing a self-supervised learning framework for wearable cardiometabolic estimation from unlabeled sensor streams.
-      - Designing cross-modal alignment between physiological sensor embeddings and text representations for interpretable, actionable health feedback.
-      - Leading the smart Foley catheter project for neurogenic bladder, including sensing algorithms, device prototyping, ex-vivo validation, and clinical preparation.
-    - company: Mintlab, Korea University
-      position: Undergraduate Researcher
-      location: Seoul, South Korea
-      start_date: '2024-06-01'
-      end_date: '2025-02-01'
-      summary: 'Advisor: Prof. Daekyum Kim'
-      highlights:
-      - Prototyped a wrist-worn wearable integrating PPG and 6-axis IMU sensors for human state estimation.
-      - Implemented firmware for synchronized optical and motion signal acquisition and collected controlled exercise data.
-      - Designed a non-invasive motor-driven pinch valve mechanism and ex-vivo porcine bladder simulation protocol for automated urination control research.
+      - company: Mintlab, Korea University
+        position: Graduate Researcher
+        location: Seoul, South Korea
+        start_date: "2025-03-01"
+        end_date: Present
+        summary: "Advisor: Prof. Daekyum Kim"
+        highlights:
+          - Developing a self-supervised learning framework for wearable cardiometabolic estimation from unlabeled sensor streams.
+          - Designing cross-modal alignment between physiological sensor embeddings and text representations for interpretable, actionable health feedback.
+          - Leading the smart Foley catheter project for neurogenic bladder, including sensing algorithms, device prototyping, ex-vivo validation, and clinical preparation.
+      - company: Mintlab, Korea University
+        position: Undergraduate Researcher
+        location: Seoul, South Korea
+        start_date: "2024-06-01"
+        end_date: "2025-02-01"
+        summary: "Advisor: Prof. Daekyum Kim"
+        highlights:
+          - Prototyped a wrist-worn wearable integrating PPG and 6-axis IMU sensors for human state estimation.
+          - Implemented firmware for synchronized optical and motion signal acquisition and collected controlled exercise data.
+          - Designed a non-invasive motor-driven pinch valve mechanism and ex-vivo porcine bladder simulation protocol for automated urination control research.
     Projects:
-    - name: Wearable Cardiometabolic Estimation
-      url: /projects/wearable-cardiometabolic-estimation/
-      summary: Kinematics-aware self-supervised learning for wearable-based cardiorespiratory fitness estimation and short-horizon physiological forecasting.
-      highlights:
-      - Built around multimodal wrist signals such as PPG and accelerometry.
-      - Links representation learning with personalized intervention design.
-    - name: 'Frailty Zero: Multimodal Foundation Model for Frailty Assessment'
-      url: /projects/frailty-zero-foundation-model/
-      summary: Part of a national initiative aimed at preemptive frailty intervention in a hyper-aged society.
-      highlights:
-      - Contributing to multimodal foundation model development for frailty assessment and prevention.
-      - Connected to broader preventive healthcare and service translation goals.
-    - name: Smart Catheter System for Neurogenic Bladder
-      url: /projects/smart-catheter-system/
-      summary: Closed-loop autonomous catheter system to preserve long-term bladder compliance and function.
-      highlights:
-      - Includes sensing algorithm development, device prototyping, validation, and clinical preparation.
-      - Related patent filed in Korea in 2026.
-    - name: Leadership, Service, and Sports Communication
-      url: /projects/international-engagement-and-service/
-      summary: A cross-domain portfolio spanning student leadership, sports media, athlete support, and global student engagement.
-      highlights:
-      - Includes KUISA, ANOC, adaptive sports volunteering, sports journalism, and industry internships.
+      - name: Wearable Cardiometabolic Estimation
+        url: /projects/wearable-cardiometabolic-estimation/
+        summary: Kinematics-aware self-supervised learning for wearable-based cardiorespiratory fitness estimation and short-horizon physiological forecasting.
+        highlights:
+          - Built around multimodal wrist signals such as PPG and accelerometry.
+          - Links representation learning with personalized intervention design.
+      - name: "Frailty Zero: Multimodal Foundation Model for Frailty Assessment"
+        url: /projects/frailty-zero-foundation-model/
+        summary: Part of a national initiative aimed at preemptive frailty intervention in a hyper-aged society.
+        highlights:
+          - Contributing to multimodal foundation model development for frailty assessment and prevention.
+          - Connected to broader preventive healthcare and service translation goals.
+      - name: Smart Catheter System for Neurogenic Bladder
+        url: /projects/smart-catheter-system/
+        summary: Closed-loop autonomous catheter system to preserve long-term bladder compliance and function.
+        highlights:
+          - Includes sensing algorithm development, device prototyping, validation, and clinical preparation.
+          - Related patent filed in Korea in 2026.
+      - name: Leadership, Service, and Sports Communication
+        url: /projects/international-engagement-and-service/
+        summary: A cross-domain portfolio spanning student leadership, sports media, athlete support, and global student engagement.
+        highlights:
+          - Includes KUISA, ANOC, adaptive sports volunteering, sports journalism, and industry internships.
     Teaching Experience:
-    - company: College of Engineering, Korea University
-      position: Teaching Assistant
-      location: Seoul, South Korea
-      start_date: '2025-09-01'
-      end_date: '2025-12-01'
-      highlights:
-      - Assisted undergraduate students in virtual engineering simulations and experiments.
-    - company: Sannam High School
-      position: Student Teacher, Physical Education
-      location: Cheongju, South Korea
-      start_date: '2023-10-01'
-      end_date: '2023-11-01'
-      highlights:
-      - Designed and implemented physical education lessons focused on biomechanics and health management.
+      - company: College of Engineering, Korea University
+        position: Teaching Assistant
+        location: Seoul, South Korea
+        start_date: "2025-09-01"
+        end_date: "2025-12-01"
+        highlights:
+          - Assisted undergraduate students in virtual engineering simulations and experiments.
+      - company: Sannam High School
+        position: Student Teacher, Physical Education
+        location: Cheongju, South Korea
+        start_date: "2023-10-01"
+        end_date: "2023-11-01"
+        highlights:
+          - Designed and implemented physical education lessons focused on biomechanics and health management.
     Academic Service:
-    - company: Nature Communications · IEEE Transactions on Neural Systems and Rehabilitation Engineering
-      position: Manuscript Co-reviewer
-      location: Korea University
-      start_date: '2025-01-01'
-      end_date: Present
-      summary: Participated in peer review under the supervision of Prof. Daekyum Kim.
-      highlights:
-      - Contributed to the evaluation of manuscripts in healthcare and rehabilitation engineering domains.
+      - company: Nature Communications · IEEE Transactions on Neural Systems and Rehabilitation Engineering
+        position: Manuscript Co-reviewer
+        location: Korea University
+        start_date: "2025-01-01"
+        end_date: Present
+        summary: Participated in peer review under the supervision of Prof. Daekyum Kim.
+        highlights:
+          - Contributed to the evaluation of manuscripts in healthcare and rehabilitation engineering domains.
     Leadership & Extracurricular Activities:
-    - company: Korea University Physical Education Department
-      position: Student Leadership Roles
-      location: Seoul, South Korea
-      start_date: '2020-03-01'
-      end_date: '2022-11-01'
-      highlights:
-      - Served as Student Council Member, Class Representative, and later Student Council President.
-      - Organized academic and social events, coordinated student affairs, and supported departmental community building.
-    - company: Korea University Sport Federation · SPORTS KU
-      position: Sports Media & Athlete Support
-      location: Seoul, South Korea
-      start_date: '2020-06-01'
-      end_date: '2021-07-01'
-      highlights:
-      - Worked as Student Reporter / Journalist for sports organizations and campus media.
-      - Served as English Assistant of Athletes, supporting communication in sports settings.
-    - company: KB Insurance Volleyball Team · Korean Rugby Association
-      position: Sports Industry Internships
-      location: South Korea
-      start_date: '2021-08-01'
-      end_date: '2023-11-01'
-      highlights:
-      - Participated in marketing activities for KB STARS Challenger 13 during the 2021–22 season.
-      - Worked in sports administration and operations through internship experience with the Korean Rugby Association.
-    - company: Korea University · ANOC · ICM Model UNESCO · Seoul Para Sports Association
-      position: Global Engagement & Community Service
-      location: South Korea
-      start_date: '2022-07-01'
-      end_date: '2023-07-01'
-      highlights:
-      - Volunteered in adaptive sports instruction for vulnerable groups through the Seoul Para Sports Association.
-      - Worked as operations staff for the 26th ANOC General Assembly Seoul 2022.
-      - Served as a KUISA buddy assistant supporting international students and completed 80 service hours.
-      - Participated as a delegate in the 2023 ICM Model UNESCO Conference on inclusive education and sustainable development.
+      - company: Korea University Physical Education Department
+        position: Student Leadership Roles
+        location: Seoul, South Korea
+        start_date: "2020-03-01"
+        end_date: "2022-11-01"
+        highlights:
+          - Served as Student Council Member, Class Representative, and later Student Council President.
+          - Organized academic and social events, coordinated student affairs, and supported departmental community building.
+      - company: Korea University Sport Federation · SPORTS KU
+        position: Sports Media & Athlete Support
+        location: Seoul, South Korea
+        start_date: "2020-06-01"
+        end_date: "2021-07-01"
+        highlights:
+          - Worked as Student Reporter / Journalist for sports organizations and campus media.
+          - Served as English Assistant of Athletes, supporting communication in sports settings.
+      - company: KB Insurance Volleyball Team · Korean Rugby Association
+        position: Sports Industry Internships
+        location: South Korea
+        start_date: "2021-08-01"
+        end_date: "2023-11-01"
+        highlights:
+          - Participated in marketing activities for KB STARS Challenger 13 during the 2021–22 season.
+          - Worked in sports administration and operations through internship experience with the Korean Rugby Association.
+      - company: Korea University · ANOC · ICM Model UNESCO · Seoul Para Sports Association
+        position: Global Engagement & Community Service
+        location: South Korea
+        start_date: "2022-07-01"
+        end_date: "2023-07-01"
+        highlights:
+          - Volunteered in adaptive sports instruction for vulnerable groups through the Seoul Para Sports Association.
+          - Worked as operations staff for the 26th ANOC General Assembly Seoul 2022.
+          - Served as a KUISA buddy assistant supporting international students and completed 80 service hours.
+          - Participated as a delegate in the 2023 ICM Model UNESCO Conference on inclusive education and sustainable development.
     Awards & Scholarships:
-    - title: BK21 Graduate Research Scholarship
-      date: '2025-06-01'
-      awarder: National Research Foundation of Korea
-      summary: Research stipend awarded through the Mechanical Engineering Education and Research Unit (BK21 FOUR Program).
-    - title: BK21 Outstanding New Student Scholarship
-      date: '2025-03-01'
-      awarder: National Research Foundation of Korea
-      summary: Awarded to select incoming graduate students demonstrating exceptional research potential.
-    - title: Lee Chai Yeon Scholarship
-      date: '2022-03-01'
-      awarder: College of Education, Korea University
-      summary: Awarded for academic excellence and leadership upon departmental recommendation.
-    - title: High Honors
-      date: '2023-12-01'
-      awarder: Korea University
-      summary: Received in the 2nd semester of 2021, 1st semester of 2022, 1st semester of 2023, and 2nd semester of 2023.
-    - title: Honors
-      date: '2020-12-01'
-      awarder: Korea University
-      summary: Received in the 2nd semester of 2020.
+      - title: BK21 Graduate Research Scholarship
+        date: "2025-06-01"
+        awarder: National Research Foundation of Korea
+        summary: Research stipend awarded through the Mechanical Engineering Education and Research Unit (BK21 FOUR Program).
+      - title: BK21 Outstanding New Student Scholarship
+        date: "2025-03-01"
+        awarder: National Research Foundation of Korea
+        summary: Awarded to select incoming graduate students demonstrating exceptional research potential.
+      - title: Lee Chai Yeon Scholarship
+        date: "2022-03-01"
+        awarder: College of Education, Korea University
+        summary: Awarded for academic excellence and leadership upon departmental recommendation.
+      - title: High Honors
+        date: "2023-12-01"
+        awarder: Korea University
+        summary: Received in the 2nd semester of 2021, 1st semester of 2022, 1st semester of 2023, and 2nd semester of 2023.
+      - title: Honors
+        date: "2020-12-01"
+        awarder: Korea University
+        summary: Received in the 2nd semester of 2020.
     Patents:
-    - bullet: Foley Catheter Urination Control Device and Control Method Thereof — Korea application no. 10-2026-0006080, filed Jan 13, 2026.
+      - bullet: Foley Catheter Urination Control Device and Control Method Thereof — Korea application no. 10-2026-0006080, filed Jan 13, 2026.
     Certificates:
-    - name: KUISA Outstanding Member Certificate
-      date: '2023-07-04'
-      issuer: Korea University Global Service Center
-      url: /assets/img/kuisa.jpg
-      icon: fa-solid fa-globe
-    - name: KB STARS Challenger 13 Completion Certificate
-      date: '2022-05-20'
-      issuer: KB Insurance Volleyball Team
-      url: /assets/pdf/woojin_kwon_kb_stars_certificate.pdf
-      icon: fa-solid fa-volleyball
-    - name: 26th ANOC General Assembly Operations Certificate
-      date: '2022-10-20'
-      issuer: ANOC Seoul 2022 Secretariat
-      url: /assets/pdf/woojin_kwon_anoc_certificate.pdf
-      icon: fa-solid fa-users
+      - name: KUISA Outstanding Member Certificate
+        date: "2023-07-04"
+        issuer: Korea University Global Service Center
+        url: /assets/img/kuisa.jpg
+        icon: fa-solid fa-globe
+      - name: KB STARS Challenger 13 Completion Certificate
+        date: "2022-05-20"
+        issuer: KB Insurance Volleyball Team
+        url: /assets/pdf/woojin_kwon_kb_stars_certificate.pdf
+        icon: fa-solid fa-volleyball
+      - name: 26th ANOC General Assembly Operations Certificate
+        date: "2022-10-20"
+        issuer: ANOC Seoul 2022 Secretariat
+        url: /assets/pdf/woojin_kwon_anoc_certificate.pdf
+        icon: fa-solid fa-users
     Skills:
-    - name: AI / Data
-      level: Advanced
-      icon: fa-solid fa-brain
-      keywords: PyTorch, Python, R, Self-Supervised Learning, LoRA Fine-tuning, Multimodal Learning, Time-series Analysis, SPSS
-    - name: Wearables & Embedded Systems
-      level: Advanced
-      icon: fa-solid fa-watch-smart
-      keywords: PPG, IMU, Sensor Interfacing, Arduino / Embedded Systems, Real-time Data Acquisition, Signal Synchronization
-    - name: Engineering & Prototyping
-      level: Advanced
-      icon: fa-solid fa-screwdriver-wrench
-      keywords: CAD (Fusion 360), Circuit Design & Wiring, Device Prototyping, Experimental Setup Design
-    - name: Experimental & Communication
-      level: Advanced
-      icon: fa-solid fa-flask
-      keywords: IRB Protocol Design, Ex-vivo Tissue Simulation, Research Presentations, Adobe Photoshop, Adobe Premiere Pro, MS Office
+      - name: AI / Data
+        level: Advanced
+        icon: fa-solid fa-brain
+        keywords: PyTorch, Python, R, Self-Supervised Learning, LoRA Fine-tuning, Multimodal Learning, Time-series Analysis, SPSS
+      - name: Wearables & Embedded Systems
+        level: Advanced
+        icon: fa-solid fa-watch-smart
+        keywords: PPG, IMU, Sensor Interfacing, Arduino / Embedded Systems, Real-time Data Acquisition, Signal Synchronization
+      - name: Engineering & Prototyping
+        level: Advanced
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: CAD (Fusion 360), Circuit Design & Wiring, Device Prototyping, Experimental Setup Design
+      - name: Experimental & Communication
+        level: Advanced
+        icon: fa-solid fa-flask
+        keywords: IRB Protocol Design, Ex-vivo Tissue Simulation, Research Presentations, Adobe Photoshop, Adobe Premiere Pro, MS Office
     Languages:
-    - name: Korean
-      summary: Native
-    - name: English
-      summary: Professional working proficiency
+      - name: Korean
+        summary: Native
+      - name: English
+        summary: Professional working proficiency
     Interests:
-    - name: Research Interests
-      icon: fa-solid fa-heart-pulse
-      keywords: Wearable Sensing, Cardiometabolic Health, Digital Biomarkers, Personalized Intervention, Explainable Healthcare AI, Human-centered Medical Systems
+      - name: Research Interests
+        icon: fa-solid fa-heart-pulse
+        keywords: Wearable Sensing, Cardiometabolic Health, Digital Biomarkers, Personalized Intervention, Explainable Healthcare AI, Human-centered Medical Systems
