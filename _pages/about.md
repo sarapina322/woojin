@@ -6,13 +6,14 @@ subtitle: |
   M.S. in Mechanical Engineering
   Korea University, Seoul, South Korea
 
-  B.A. in Physical Education & B.S. in Biosystems and Biomedical Science
+  B.A. in Physical Education
+  B.S. in Biosystems and Biomedical Science (Double)
   Korea University, Seoul, South Korea
 
 profile:
   align: right
   image: woojin_profile.jpg
-  image_width: 320
+  image_width: 80
   image_circular: false
 
 selected_papers: false

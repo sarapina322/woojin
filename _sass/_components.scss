@@ -144,6 +144,13 @@ ul.task-list input[type="checkbox"] {
   min-width: 0;
 }
 
+.about-content {
+  h3 {
+    margin-top: 2.6rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
 @media (max-width: 575.98px) {
   .about-header {
     display: block;
