@@ -18,8 +18,8 @@ keywords: wearable sensing, self-supervised learning, multimodal deep learning, 
 lang: en # English-first portfolio; a Korean version can be added later
 icon: 🫀 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: "https://woojinkwon.github.io" # TODO: set to https://<your-github-username>.github.io before deployment
-baseurl: ""
+url: "https://sarapina322.github.io"
+baseurl: /woojin
 last_updated: true # shows the last update time in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
