@@ -81,6 +81,11 @@ ul.task-list input[type="checkbox"] {
 .about-profile {
   margin-top: 0;
   margin-bottom: 0.75rem;
+
+  figure {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 576px) {
@@ -95,8 +100,8 @@ ul.task-list input[type="checkbox"] {
   }
 
   .about-profile {
-    width: 7%;
-    max-width: 60px;
+    width: 6%;
+    max-width: 42px;
     margin-left: 1.25rem;
   }
 }
@@ -104,8 +109,14 @@ ul.task-list input[type="checkbox"] {
 @media (max-width: 575.98px) {
   .about-profile {
     float: none !important;
-    max-width: 58px;
+    max-width: 40px;
     margin: 0 auto 1rem auto;
+  }
+}
+
+.about-header {
+  .post-title {
+    margin-top: 0;
   }
 }
 

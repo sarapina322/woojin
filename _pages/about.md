@@ -4,12 +4,11 @@ title: About
 permalink: /
 subtitle: >
   M.S. Student<br>
-  MINT Lab, Department of Mechanical Engineering<br>
+  Department of Mechanical Engineering<br>
   Korea University, Seoul, South Korea<br><br>
-  <span aria-hidden="true">|</span><br>
-  <strong>Education</strong><br>
+  <strong>Education</strong><br><br>
   B.A. in Physical Education<br>
-  B.S. in Biosystems and Biomedical Science<br>
+  B.S. in Biosystems and Biomedical Science<br><br>
   Korea University, Seoul, South Korea
 
 profile:
