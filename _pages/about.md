@@ -15,7 +15,6 @@ subtitle: |
 profile:
   align: right
   image: woojin_profile.jpg
-  image_width: 150
   image_circular: false
 
 selected_papers: false
@@ -39,15 +38,17 @@ My recent research includes **wearable-based cardiorespiratory fitness estimatio
 Beyond research, I have spent a large part of my undergraduate years in leadership and service roles: student council leadership in the Department of Physical Education, sports journalism and athlete-support work, sports-industry internships, international student assistance through KUISA, operations support at the ANOC General Assembly, and inclusive sports volunteering.
 
 ### Research Interests
+
 - Wearable sensing for cardiometabolic and physiological state estimation
 - Self-supervised and multimodal representation learning
 - Personalized intervention and explainable healthcare AI
 - Human-centered medical AI and assistive systems
 
 ### Downloads
+
 - [Academic CV]({{ '/assets/pdf/woojin_kwon_academic_cv.pdf' | relative_url }})
 - [Expanded CV]({{ '/assets/pdf/woojin_kwon_extended_cv.pdf' | relative_url }})
 
 ### Publications
-I am currently preparing this section. Formal publications and preprints will be added as they become public.
 
+I am currently preparing this section. Formal publications and preprints will be added as they become public.

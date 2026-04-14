@@ -15,7 +15,7 @@ layout: default
       <p class="desc">{{ page.subtitle | newline_to_br }}</p>
     </div>
     {% if page.profile %}
-      {% assign profile_image_width = page.profile_image_width | default: page.profile.image_width | default: 120 %}
+      {% assign profile_image_width = page.profile_image_width | default: 120 %}
       <div
         class="profile about-profile"
         style="width: {{ profile_image_width }}px; max-width: {{ profile_image_width }}px; flex-basis: {{ profile_image_width }}px;"
