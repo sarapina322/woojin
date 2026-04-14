@@ -1,6 +1,6 @@
 ---
 layout: page
-title: profiles
+title: Profiles
 permalink: /profiles/
 nav: false
 ---

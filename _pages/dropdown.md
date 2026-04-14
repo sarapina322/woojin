@@ -1,6 +1,6 @@
 ---
 layout: page
-title: menu
+title: Menu
 permalink: /menu/
 nav: false
 ---

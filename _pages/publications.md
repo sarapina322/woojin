@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Accepted papers, preprints, and manuscript updates.
 nav: true
 nav_order: 4

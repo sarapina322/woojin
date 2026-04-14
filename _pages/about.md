@@ -1,17 +1,15 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: M.S. Student, MINT Lab, Department of Mechanical Engineering, Korea University
+subtitle: >
+  M.S. Student, MINT Lab, Department of Mechanical Engineering, Korea University, Seoul, South Korea<br>
+  B.A. in Physical Education & B.S. in Biosystems and Biomedical Science, Korea University, Seoul, South Korea
 
 profile:
   align: right
   image: woojin_profile.jpg
   image_circular: false
-  more_info: >
-    <p>M.S. Student</p>
-    <p>MINT Lab, Department of Mechanical Engineering</p>
-    <p>Korea University, Seoul, South Korea</p>
 
 selected_papers: false
 social: true
