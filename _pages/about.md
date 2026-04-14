@@ -12,6 +12,7 @@ subtitle: |
 profile:
   align: right
   image: woojin_profile.jpg
+  image_width: 320
   image_circular: false
 
 selected_papers: false

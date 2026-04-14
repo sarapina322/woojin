@@ -80,8 +80,8 @@ ul.task-list input[type="checkbox"] {
 
 .about-profile {
   flex: 0 0 auto;
-  width: clamp(120px, 16vw, 170px);
-  max-width: 170px;
+  width: min(26vw, var(--about-profile-max, 320px));
+  max-width: var(--about-profile-max, 320px);
   margin: 0 0 0 1rem;
 
   figure {
@@ -107,16 +107,16 @@ ul.task-list input[type="checkbox"] {
   }
 
   .about-profile {
-    width: clamp(120px, 16vw, 170px);
-    max-width: 170px;
+    width: min(26vw, var(--about-profile-max, 320px));
+    max-width: var(--about-profile-max, 320px);
   }
 }
 
 @media (max-width: 575.98px) {
   .about-profile {
     float: none !important;
-    width: clamp(96px, 34vw, 130px);
-    max-width: 130px;
+    width: min(54vw, calc(var(--about-profile-max, 320px) * 0.7));
+    max-width: calc(var(--about-profile-max, 320px) * 0.7);
     margin: 0 0 0.75rem 0;
   }
 }
@@ -126,6 +126,7 @@ ul.task-list input[type="checkbox"] {
   align-items: flex-start;
   justify-content: space-between;
   gap: 1rem;
+  margin-bottom: 1.5rem;
 
   .post-title {
     margin-top: 0;
@@ -133,7 +134,8 @@ ul.task-list input[type="checkbox"] {
   }
 
   .desc {
-    margin-bottom: 0;
+    margin-bottom: 1.25rem;
+    line-height: 1.7;
   }
 }
 

@@ -15,7 +15,8 @@ layout: default
       <p class="desc">{{ page.subtitle | newline_to_br }}</p>
     </div>
     {% if page.profile %}
-      <div class="profile about-profile">
+      {% assign profile_image_width = page.profile.image_width | default: 320 %}
+      <div class="profile about-profile" style="--about-profile-max: {{ profile_image_width }}px;">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
@@ -23,9 +24,10 @@ layout: default
           {% else %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.16 }}px, (min-width: 576px) 18vw, 42vw{% endcapture %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ profile_image_width }}px, (min-width: 576px) 28vw, 58vw{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            width=profile_image_width
             cache_bust=true
           %}
         {% endif %}
