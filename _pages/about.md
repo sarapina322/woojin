@@ -6,7 +6,7 @@ subtitle: M.S. Student, MINT Lab, Department of Mechanical Engineering, Korea Un
 
 profile:
   align: right
-  image: woojin_profile.png
+  image: woojin_profile.jpg
   image_circular: false
   more_info: >
     <p>M.S. Student</p>

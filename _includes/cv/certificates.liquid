@@ -1,28 +1,122 @@
 {% comment %}
-  Unified certificates entry renderer for both formats
+  Unified activity certificate / evidence entry renderer.
 {% endcomment %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
   {% for entry in entries %}
-    <li class="list-group-item">
-      {% if entry.icon %}
-        <i class="{{ entry.icon }}"></i>
-      {% endif %}
-      {% if entry.url %}
-        <strong
-          ><a href="{{ entry.url }}" target="_blank">{{ entry.name }}</a></strong
-        >
+    {% assign date_label = '' %}
+    {% if entry.date %}
+      {% if entry.date contains '-' %}
+        {% assign date_label = entry.date | date: '%Y.%m' %}
       {% else %}
-        <strong>{{ entry.name }}</strong>
+        {% assign date_label = entry.date %}
       {% endif %}
+    {% endif %}
 
-      {% if entry.issuer %}
-        - <em>{{ entry.issuer }}</em>
-      {% endif %}
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-12 col-md-3 date-column">
+          {% if date_label != '' %}
+            <span class="cv-date-pill">{{ date_label }}</span>
+          {% endif %}
+        </div>
 
-      {% if entry.date %}
-        ({{ entry.date | split: '-' | slice: 0, 1 | join: '' }})
-      {% endif %}
+        <div class="col-12 col-md-9 mt-2 mt-md-0">
+          <h6 class="title font-weight-bold mb-1">
+            {% if entry.icon %}
+              <i class="{{ entry.icon }}"></i>
+            {% endif %}
+            {{ entry.name }}
+          </h6>
+
+          {% if entry.issuer %}
+            <h6 class="mb-1" style="font-size: 0.95rem">{{ entry.issuer }}</h6>
+          {% endif %}
+
+          {% if entry.summary %}
+            <p class="mb-2">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+          {% endif %}
+
+          {% if entry.evidence or entry.url %}
+            <details class="cv-evidence mt-2">
+              <summary>View Evidence</summary>
+              <div class="cv-evidence-links">
+                {% if entry.evidence %}
+                  {% for ev in entry.evidence %}
+                    {% assign ev_label = ev.label | default: ev.title | default: 'Evidence' %}
+                    {% assign ev_path = ev.url | default: ev.path | default: ev %}
+                    {% if ev_path contains '://' %}
+                      {% assign ev_href = ev_path %}
+                    {% else %}
+                      {% assign ev_href = ev_path | relative_url %}
+                    {% endif %}
+                    <a href="{{ ev_href }}" target="_blank" rel="noopener noreferrer" class="btncv">{{ ev_label }}</a>
+                  {% endfor %}
+                {% elsif entry.url %}
+                  {% if entry.url contains '://' %}
+                    {% assign ev_href = entry.url %}
+                  {% else %}
+                    {% assign ev_href = entry.url | relative_url %}
+                  {% endif %}
+                  <a href="{{ ev_href }}" target="_blank" rel="noopener noreferrer" class="btncv">Evidence</a>
+                {% endif %}
+              </div>
+
+              <div class="cv-evidence-grid">
+                {% if entry.evidence %}
+                  {% for ev in entry.evidence %}
+                    {% assign ev_label = ev.label | default: ev.title | default: 'Evidence' %}
+                    {% assign ev_path = ev.url | default: ev.path | default: ev %}
+                    {% assign ev_path_down = ev_path | downcase %}
+                    {% assign is_image = false %}
+                    {% if ev_path_down contains '.png'
+                      or ev_path_down contains '.jpg'
+                      or ev_path_down contains '.jpeg'
+                      or ev_path_down contains '.webp'
+                      or ev_path_down contains '.gif'
+                    %}
+                      {% assign is_image = true %}
+                    {% endif %}
+                    {% if is_image %}
+                      {% if ev_path contains '://' %}
+                        {% assign ev_src = ev_path %}
+                      {% else %}
+                        {% assign ev_src = ev_path | relative_url %}
+                      {% endif %}
+                      <a href="{{ ev_src }}" target="_blank" rel="noopener noreferrer" class="cv-evidence-card">
+                        <img src="{{ ev_src }}" alt="{{ ev_label }}">
+                        <span>{{ ev_label }}</span>
+                      </a>
+                    {% endif %}
+                  {% endfor %}
+                {% elsif entry.url %}
+                  {% assign ev_path_down = entry.url | downcase %}
+                  {% assign is_image = false %}
+                  {% if ev_path_down contains '.png'
+                    or ev_path_down contains '.jpg'
+                    or ev_path_down contains '.jpeg'
+                    or ev_path_down contains '.webp'
+                    or ev_path_down contains '.gif'
+                  %}
+                    {% assign is_image = true %}
+                  {% endif %}
+                  {% if is_image %}
+                    {% if entry.url contains '://' %}
+                      {% assign ev_src = entry.url %}
+                    {% else %}
+                      {% assign ev_src = entry.url | relative_url %}
+                    {% endif %}
+                    <a href="{{ ev_src }}" target="_blank" rel="noopener noreferrer" class="cv-evidence-card">
+                      <img src="{{ ev_src }}" alt="Evidence">
+                      <span>Evidence</span>
+                    </a>
+                  {% endif %}
+                {% endif %}
+              </div>
+            </details>
+          {% endif %}
+        </div>
+      </div>
     </li>
   {% endfor %}
 </ul>
