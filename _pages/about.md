@@ -29,7 +29,7 @@ latest_posts:
   enabled: false
 ---
 
-I am an M.S. student in Mechanical Engineering at Korea University and a graduate researcher in MINT Lab, advised by Prof. Daekyum Kim. My current work sits at the intersection of multimodal deep learning, self-supervised learning, AI for healthcare, and physiological signal processing, with a strong focus on **wearable sensing** and **personalized health intervention**.
+I am an M.S. student in Mechanical Engineering at Korea University and a graduate researcher in MINT Lab, advised by Prof. Daekyum Kim. My current work sits at the intersection of **multimodal deep learning**, **self-supervised learning**, **AI for healthcare**, and **physiological signal processing**, with a strong focus on **wearable sensing** and **personalized health intervention**.
 
 Before graduate school, I completed dual bachelor's degrees in **Physical Education** and **Biosystems and Biomedical Science** at Korea University, and I spent Spring 2024 as an exchange student at Arizona State University. That background still shapes how I think: I like building systems that connect human movement, physiology, and machine learning in a way that remains useful outside the lab.
 
