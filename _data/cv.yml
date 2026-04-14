@@ -91,12 +91,13 @@ cv:
 
     Teaching Experience:
       - company: College of Engineering, Korea University
-        position: Teaching Assistant
+        position: Teaching Assistant, Fundamentals of Virtual Engineering Experiments
         location: Seoul, South Korea
         start_date: "2025-09-01"
         end_date: "2025-12-01"
         highlights:
-          - Assisted undergraduate students in virtual engineering simulations and experiments.
+          - Supported instruction for Fundamentals of Virtual Engineering Experiments (기초가상공학실험).
+          - Provided assignment-centered course support, including guidance and grading for practice tasks.
 
       - company: College of Engineering, Korea University
         position: Teaching Assistant, Sensor Signal Processing 2
