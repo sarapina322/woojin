@@ -7,34 +7,34 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/";
+      window.location.href = "/woojin/";
     },
   },{id: "nav-cv",
           title: "CV",
           description: "Research, education, leadership, and service portfolio.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/woojin/cv/";
           },
         },{id: "nav-projects",
           title: "projects",
           description: "Research, leadership, and service collected in one place.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/woojin/projects/";
           },
         },{id: "nav-publications",
           title: "publications",
           description: "Accepted papers, preprints, and manuscript updates.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/woojin/publications/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/woojin/books/the_godfather/";
             },},{id: "news-completed-an-exchange-semester-at-arizona-state-university",
           title: 'Completed an exchange semester at Arizona State University.',
           description: "",
@@ -51,43 +51,43 @@ ninja.data = [{
           title: 'wearable cardiometabolic estimation',
           description: "kinematics-aware self-supervised learning for wearable-based cardiorespiratory fitness estimation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/wearable-cardiometabolic-estimation/";
+              window.location.href = "/woojin/projects/wearable-cardiometabolic-estimation/";
             },},{id: "projects-frailty-zero-foundation-model",
           title: 'frailty zero foundation model',
           description: "multimodal foundation modeling for frailty assessment and preemptive intervention in aging populations.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/frailty-zero-foundation-model/";
+              window.location.href = "/woojin/projects/frailty-zero-foundation-model/";
             },},{id: "projects-smart-catheter-system",
           title: 'smart catheter system',
           description: "closed-loop assistive medical system for neurogenic bladder care.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/smart-catheter-system/";
+              window.location.href = "/woojin/projects/smart-catheter-system/";
             },},{id: "projects-sports-leadership-media-and-industry",
           title: 'sports leadership, media, and industry',
           description: "undergraduate experiences across student leadership, communication, and sports-industry practice.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/sports-leadership-media-and-industry/";
+              window.location.href = "/woojin/projects/sports-leadership-media-and-industry/";
             },},{id: "projects-international-engagement-and-service",
           title: 'international engagement and service',
           description: "student support, global events, and community-based volunteering.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/international-engagement-and-service/";
+              window.location.href = "/woojin/projects/international-engagement-and-service/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
+              window.location.href = "/woojin/teachings/data-science-fundamentals/";
             },},{id: "teachings-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/woojin/teachings/introduction-to-machine-learning/";
             },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/woojin_kwon_academic_cv.pdf", "_blank");
+          window.open("/woojin/assets/pdf/woojin_kwon_academic_cv.pdf", "_blank");
         },
       },{
         id: 'social-email',
@@ -101,7 +101,7 @@ ninja.data = [{
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("/woojin/feed.xml", "_blank");
         },
       },{
         id: 'social-github',
