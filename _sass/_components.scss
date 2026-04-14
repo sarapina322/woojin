@@ -79,6 +79,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .about-profile {
+  margin-top: 0;
   margin-bottom: 0.75rem;
 }
 
@@ -94,15 +95,16 @@ ul.task-list input[type="checkbox"] {
   }
 
   .about-profile {
-    width: 20%;
-    max-width: 190px;
+    width: 10%;
+    max-width: 95px;
+    margin-left: 1.25rem;
   }
 }
 
 @media (max-width: 575.98px) {
   .about-profile {
     float: none !important;
-    max-width: 170px;
+    max-width: 90px;
     margin: 0 auto 1rem auto;
   }
 }
