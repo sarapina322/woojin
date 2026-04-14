@@ -122,10 +122,11 @@ cv:
         position: Manuscript Co-reviewer
         location: Seoul, South Korea
         start_date: "2025-01-01"
-        end_date: Present
-        summary: Participated in peer review under the supervision of Prof. Daekyum Kim.
+        end_date: "2025-12-01"
+        summary: Completed two one-off co-reviews at the request of Prof. Daekyum Kim (not an ongoing reviewer role).
         highlights:
-          - Contributed to the evaluation of manuscripts in healthcare and rehabilitation engineering domains.
+          - Co-reviewed one manuscript for Nature Communications.
+          - Co-reviewed one manuscript for IEEE Transactions on Neural Systems and Rehabilitation Engineering.
 
     Leadership & Extracurricular Activities:
       - company: Korea University Physical Education Department
