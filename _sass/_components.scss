@@ -79,12 +79,19 @@ ul.task-list input[type="checkbox"] {
 }
 
 .about-profile {
-  margin-top: 0;
-  margin-bottom: 0.75rem;
+  flex: 0 0 auto;
+  width: 42px;
+  max-width: 42px;
+  margin: 0 0 0 1rem;
 
   figure {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -100,23 +107,42 @@ ul.task-list input[type="checkbox"] {
   }
 
   .about-profile {
-    width: 6%;
+    width: 42px;
     max-width: 42px;
-    margin-left: 1.25rem;
   }
 }
 
 @media (max-width: 575.98px) {
   .about-profile {
     float: none !important;
-    max-width: 40px;
-    margin: 0 auto 1rem auto;
+    margin: 0 0 0.75rem 0;
   }
 }
 
 .about-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+
   .post-title {
     margin-top: 0;
+    margin-bottom: 0.35rem;
+  }
+
+  .desc {
+    margin-bottom: 0;
+  }
+}
+
+.about-heading-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+@media (max-width: 575.98px) {
+  .about-header {
+    display: block;
   }
 }
 

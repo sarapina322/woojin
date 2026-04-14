@@ -3,12 +3,10 @@ layout: about
 title: About
 permalink: /
 subtitle: >
-  M.S. Student<br>
-  Department of Mechanical Engineering<br>
+  M.S. in Mechanical Engineering<br>
   Korea University, Seoul, South Korea<br><br>
-  <strong>Education</strong><br><br>
-  B.A. in Physical Education<br>
-  B.S. in Biosystems and Biomedical Science<br><br>
+
+  B.A. in Physical Education & B.S. in Biosystems and Biomedical Science<br>
   Korea University, Seoul, South Korea
 
 profile:
@@ -22,7 +20,7 @@ social: true
 announcements:
   enabled: true
   scrollable: true
-  limit: 8
+  limit: 5
 
 latest_posts:
   enabled: false
