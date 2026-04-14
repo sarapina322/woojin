@@ -3,6 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle: |
+  
   M.S. in Mechanical Engineering
   Korea University, Seoul, South Korea
 
@@ -13,7 +14,7 @@ subtitle: |
 profile:
   align: right
   image: woojin_profile.jpg
-  image_width: 80
+  image_width: 120
   image_circular: false
 
 selected_papers: false
@@ -36,6 +37,7 @@ My recent research includes **wearable-based cardiorespiratory fitness estimatio
 
 Beyond research, I have spent a large part of my undergraduate years in leadership and service roles: student council leadership in the Department of Physical Education, sports journalism and athlete-support work, sports-industry internships, international student assistance through KUISA, operations support at the ANOC General Assembly, and inclusive sports volunteering.
 
+
 ### Research Interests
 
 - Wearable sensing for cardiometabolic and physiological state estimation
@@ -43,10 +45,12 @@ Beyond research, I have spent a large part of my undergraduate years in leadersh
 - Personalized intervention and explainable healthcare AI
 - Human-centered medical and assistive systems
 
+
 ### Downloads
 
 - [Academic CV]({{ '/assets/pdf/woojin_kwon_academic_cv.pdf' | relative_url }})
 - [Expanded CV]({{ '/assets/pdf/woojin_kwon_extended_cv.pdf' | relative_url }})
+
 
 ### Publications
 
