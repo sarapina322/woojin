@@ -140,10 +140,19 @@ ul.task-list input[type="checkbox"] {
     margin-top: 1.6rem;
   }
 
+  > p:last-child {
+    margin-bottom: 0;
+  }
+
   h3 {
     margin-top: 2.6rem;
     margin-bottom: 1.25rem;
   }
+}
+
+.about-section-title {
+  margin-top: 2.6rem;
+  margin-bottom: 1.25rem;
 }
 
 @media (max-width: 575.98px) {

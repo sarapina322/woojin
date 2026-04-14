@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-profile_image_width: 150
+profile_image_width: 180
 subtitle: |
 
   M.S. in Mechanical Engineering
