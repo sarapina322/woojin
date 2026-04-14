@@ -98,6 +98,16 @@ cv:
         highlights:
           - Assisted undergraduate students in virtual engineering simulations and experiments.
 
+      - company: College of Engineering, Korea University
+        position: Teaching Assistant, Sensor Signal Processing 2
+        location: Seoul, South Korea
+        start_date: "2026-03-01"
+        end_date: "2026-06-01"
+        highlights:
+          - Led TA sessions and delivered supplementary lectures for Sensor Signal Processing 2.
+          - Supported course operation through assignment grading and exam question preparation.
+          - Delivered OpenCV-related lecture content and practical guidance.
+
       - company: Sannam High School
         position: Student Teacher, Physical Education
         location: Seoul, South Korea
