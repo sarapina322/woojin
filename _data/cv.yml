@@ -111,7 +111,7 @@ cv:
 
       - company: Sannam High School
         position: Student Teacher, Physical Education
-        location: Seoul, South Korea
+        location: Cheongju, South Korea
         start_date: "2023-10-01"
         end_date: "2023-11-01"
         highlights:
@@ -121,8 +121,6 @@ cv:
       - company: Nature Communications; IEEE Transactions on Neural Systems and Rehabilitation Engineering
         position: Manuscript Co-reviewer
         location: Seoul, South Korea
-        start_date: "2025-01-01"
-        end_date: "2025-12-01"
         summary: Completed two one-off co-reviews at the request of Prof. Daekyum Kim (not an ongoing reviewer role).
         highlights:
           - Co-reviewed one manuscript for Nature Communications.
@@ -133,30 +131,38 @@ cv:
         position: Student Council Member
         location: Seoul, South Korea
         start_date: "2020-03-01"
-        end_date: "2021-02-01"
+        end_date: "2022-11-01"
         highlights:
           - Supported student affairs and departmental events.
 
       - company: Korea University Physical Education Department
         position: Class Representative
         location: Seoul, South Korea
-        start_date: "2021-03-01"
-        end_date: "2021-12-01"
+        start_date: "2020-11-01"
+        end_date: "2021-11-01"
         highlights:
           - Coordinated class communication and student feedback delivery.
 
       - company: Korea University Physical Education Department
         position: Student Council President
         location: Seoul, South Korea
-        start_date: "2022-01-01"
+        start_date: "2021-11-01"
         end_date: "2022-11-01"
         highlights:
           - Led departmental student governance and organized academic and community activities.
 
-      - company: Korea University Sport Federation; SPORTS KU
+      - company: Korea University Sport Federation
         position: Student Reporter / Journalist
         location: Seoul, South Korea
         start_date: "2020-06-01"
+        end_date: "2021-02-01"
+        highlights:
+          - Produced sports-related campus media content and event reports.
+
+      - company: SPORTS KU, Korea University
+        position: Reporter / Journalist
+        location: Seoul, South Korea
+        start_date: "2021-03-01"
         end_date: "2021-07-01"
         highlights:
           - Produced sports-related campus media content and event reports.
@@ -164,8 +170,8 @@ cv:
       - company: Korea University Sport Federation
         position: English Assistant of Athletes (Mentor)
         location: Seoul, South Korea
-        start_date: "2020-06-01"
-        end_date: "2021-07-01"
+        start_date: "2021-03-01"
+        end_date: "2021-06-01"
         highlights:
           - Supported athlete communication in English during sports activities and events.
         evidence:
@@ -176,7 +182,7 @@ cv:
         position: KB STARS Challenger 13 Marketing Participant
         location: Seoul, South Korea
         start_date: "2021-08-01"
-        end_date: "2022-05-01"
+        end_date: "2022-11-01"
         highlights:
           - Participated in fan engagement and marketing support during the 2021-22 season.
         evidence:
@@ -199,7 +205,7 @@ cv:
       - company: Korea University International Student Assistant (KUISA)
         position: Buddy Assistant
         location: Seoul, South Korea
-        start_date: "2022-07-01"
+        start_date: "2023-03-01"
         end_date: "2023-07-01"
         highlights:
           - Supported international students and completed 80 volunteer service hours.
@@ -211,7 +217,7 @@ cv:
         position: Operations Staff
         location: Seoul, South Korea
         start_date: "2022-10-18"
-        end_date: "2022-10-22"
+        end_date: "2022-10-20"
         highlights:
           - Supported event operations for international delegates and committee sessions.
         evidence:
@@ -223,8 +229,8 @@ cv:
       - company: Seoul Para Sports Association
         position: Volunteer Instructor, Sports Talent Sharing Program
         location: Seoul, South Korea
-        start_date: "2023-03-01"
-        end_date: "2023-06-01"
+        start_date: "2022-07-01"
+        end_date: "2022-07-01"
         highlights:
           - Volunteered in adaptive sports instruction for vulnerable groups.
         evidence:
@@ -234,8 +240,8 @@ cv:
       - company: ICM Model UNESCO Conference
         position: Delegate
         location: Chungju, South Korea
-        start_date: "2023-08-01"
-        end_date: "2023-08-03"
+        start_date: "2023-07-01"
+        end_date: "2023-07-01"
         highlights:
           - Participated in discussions on inclusive education and sustainable development.
         evidence:
@@ -310,7 +316,7 @@ cv:
             url: /assets/pdf/woojin_kwon_anoc_certificate.pdf
 
       - name: KUSF Athlete Mentor Activity Record
-        date: "2021-07-01"
+        date: "2021-06-01"
         issuer: Korea University Sport Federation
         icon: fa-solid fa-users
         summary: English support activity record for athlete communication support.
@@ -328,7 +334,7 @@ cv:
             url: /assets/img/Korea_Rugby_association.jpg
 
       - name: Model UNESCO Delegate Activity Record
-        date: "2023-08-03"
+        date: "2023-07-01"
         issuer: ICM Model UNESCO Conference
         icon: fa-solid fa-globe
         summary: Delegate participation record in an international discussion forum.
@@ -337,7 +343,7 @@ cv:
             url: /assets/img/MUNESCO.jpg
 
       - name: Sports Talent Sharing Volunteer Activity Record
-        date: "2023-06-01"
+        date: "2022-07-01"
         issuer: Seoul Para Sports Association
         icon: fa-solid fa-heart-pulse
         summary: Volunteer activity record for adaptive sports instruction.
