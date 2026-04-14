@@ -80,8 +80,6 @@ ul.task-list input[type="checkbox"] {
 
 .about-profile {
   flex: 0 0 auto;
-  width: min(26vw, var(--about-profile-max, 320px));
-  max-width: var(--about-profile-max, 320px);
   margin: 0 0 0 1rem;
 
   figure {
@@ -105,18 +103,11 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
-
-  .about-profile {
-    width: min(26vw, var(--about-profile-max, 320px));
-    max-width: var(--about-profile-max, 320px);
-  }
 }
 
 @media (max-width: 575.98px) {
   .about-profile {
     float: none !important;
-    width: min(54vw, calc(var(--about-profile-max, 320px) * 0.7));
-    max-width: calc(var(--about-profile-max, 320px) * 0.7);
     margin: 0 0 0.75rem 0;
   }
 }
@@ -145,6 +136,10 @@ ul.task-list input[type="checkbox"] {
 }
 
 .about-content {
+  > :first-child {
+    margin-top: 1.6rem;
+  }
+
   h3 {
     margin-top: 2.6rem;
     margin-bottom: 1.25rem;

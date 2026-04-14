@@ -15,8 +15,11 @@ layout: default
       <p class="desc">{{ page.subtitle | newline_to_br }}</p>
     </div>
     {% if page.profile %}
-      {% assign profile_image_width = page.profile.image_width | default: 320 %}
-      <div class="profile about-profile" style="--about-profile-max: {{ profile_image_width }}px;">
+      {% assign profile_image_width = page.profile.image_width | default: 80 %}
+      <div
+        class="profile about-profile"
+        style="width: {{ profile_image_width }}px; max-width: {{ profile_image_width }}px; flex-basis: {{ profile_image_width }}px;"
+      >
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
